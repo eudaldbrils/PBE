@@ -1,0 +1,101 @@
+/*Estil del bot
+button {background-image: -gtk-gradient (radial,
+                               center center, 0,
+                               center center, 1,
+                               from(yellow), to(red));}
+button:hover {background-image: -gtk-gradient (radial,
+                                   center center, 0,
+                                   center center, 1,
+                                   from(yellow), to(cyan));}
+button:active {background-image: -gtk-gradient (radial,
+                                   center center, 0,
+                                   center center, 1,
+                                   from(yellow), to(green));}*/
+button{
+  border-radius:45px;
+  
+
+}
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: darkgrey;
+  border-radius:45px;
+  border: 2px solid #0099CC;
+}
+
+
+window{
+  background-color: #FAFDCA;
+}
+
+#grid_fin1{
+  padding:200px;
+  
+}
+#grid-fin2{
+  padding:0px;
+}
+
+#labelprincipal{
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: pango;
+}
+
+#labelnomusuari{
+  color: blue;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: pango;
+
+}
+
+#labelwelcome{
+  color: black;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: pango;
+}
+#labeltitols{
+  color: yellow;
+  background-color: #0C28DA;
+  font-size: 10px;
+  font-family: pango;
+}
+
+#labelimpar{
+  color: black;
+  background-color: #7CDAF1;
+  
+  font-size: 10px;
+  font-family: pango;
+}
+
+
+#labelpar{
+  color: black;
+  background-color: #509AD5;
+  font-size: 10px;
+  font-family: pango;
+}
+
+#labelvermell{
+  color: red;
+  
+  font-size: 10px;
+  font-family: pango;
+}
+
+/*Estil del TextView*/
+/*textview text{background-color: #CFF1F0;}*/
+
+textview{font-family: monospace;
+		font-size: 20px;
+
+border-width: 10px;	
+border-color: blue;
+}
+
+
